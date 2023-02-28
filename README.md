@@ -23,8 +23,7 @@ SvelteKit sends the component state along with the HTML content to the client, *
 
     client._start_router();
    ```
-
-````
+   
 2. Hydrate
 
 To try this for yourself, run the app and open in Chrome or Firefox
@@ -56,6 +55,12 @@ Firefox Profiler:
 2. Network -> Disable Cache
 3. Performance -> Start Recording -> Stop
 4. For dev -> find Counter and Greeter components in network; for prod -> find \_page... js in network and see when it is loaded
+
+SvelteKit Hydration
+![](https://github.com/neonpie/sveltekit-hydration/blob/main/sveltekit-hydration.gif)
+
+Qwik Resumability
+![](https://github.com/neonpie/sveltekit-hydration/blob/main/qwik-resumability.gif)
 
 ---
 
